@@ -319,7 +319,7 @@ Detailed documentation about the project architecture and API endpoints can be f
 
 This project is licensed under the MIT License - see the server/LICENSE file for details.
 
-### 📊 Project Status
+## 📊 Project Status
 
 <p>
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status" />
@@ -329,7 +329,7 @@ This project is licensed under the MIT License - see the server/LICENSE file for
   <img src="https://img.shields.io/badge/Nestjs-11.0.1-E0234E" alt="NestJS Version" />
 </p>
 
-### 📧 Contact & Contribution
+## 📧 Contact
 
 If you have any questions or suggestions, please reach out to me at [42roan1mst@hft-stuttgart.de](mailto:42roan1mst@hft-stuttgart.de).
 

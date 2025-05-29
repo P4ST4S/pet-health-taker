@@ -12,6 +12,7 @@
   <a href="#-installation">Installation</a> •
   <a href="#-usage">Usage</a> •
   <a href="#-api-endpoints">API Endpoints</a> •
+  <a href="#-documentation">Documentation</a> •
   <a href="#-deployment">Deployment</a> •
   <a href="#-license">License</a>
 </p>
@@ -22,6 +23,7 @@
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger" />
 </p>
 
 ## 📋 Description
@@ -37,6 +39,7 @@ Pet Health Tracker is a comprehensive backend application built with NestJS that
 - 👤 **User Authentication**: Secure login and registration with JWT authentication.
 - 🔒 **Data Protection**: Ensures that users can only access and modify their own pets' data.
 - ⏰ **Scheduled Tasks**: Automated system for sending reminders and notifications.
+- 📚 **Interactive API Documentation**: Swagger UI for exploring and testing API endpoints.
 
 ## 🛠️ Tech Stack
 
@@ -47,6 +50,7 @@ Pet Health Tracker is a comprehensive backend application built with NestJS that
 - **Authentication**: [Passport](http://www.passportjs.org/) & [JWT](https://jwt.io/) - For secure user authentication.
 - **Validation**: [class-validator](https://github.com/typestack/class-validator) - Decorator-based property validation.
 - **Scheduling**: [@nestjs/schedule](https://docs.nestjs.com/techniques/task-scheduling) - For scheduled tasks and reminders.
+- **API Documentation**: [Swagger/OpenAPI](https://swagger.io/) - Interactive API documentation and testing.
 - **Environment**: [Docker](https://www.docker.com/) - For containerization and easy deployment.
 
 ## 📁 Project Structure
@@ -177,6 +181,15 @@ Pet Health Tracker follows a modular architecture pattern using NestJS's powerfu
 
 Once the application is running, you can interact with it via the REST API endpoints.
 
+### API Documentation with Swagger
+
+The application is equipped with Swagger UI, providing interactive API documentation:
+
+- Access the Swagger UI at: `http://localhost:3000/api/docs`
+- Test endpoints directly from your browser
+- View request/response schemas
+- Authenticate with JWT tokens using the "Authorize" button
+
 ### Authentication Flow
 
 1. Register a new user account
@@ -284,6 +297,7 @@ Detailed documentation about the project architecture and API endpoints can be f
 
 - [Architecture Documentation](server/docs/architecture.md)
 - [API Documentation](server/docs/api.md)
+- **Swagger UI**: Access interactive API documentation at `http://localhost:3000/api/docs` when the server is running
 
 ## 📝 License
 

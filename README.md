@@ -21,24 +21,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/P4ST4S/pet-health-tracker/actions/workflows/main.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/P4ST4S/pet-health-tracker/main.yml?branch=main&label=CI&logo=github" alt="CI Status" />
-  </a>
-  <a href="https://codecov.io/gh/P4ST4S/pet-health-tracker">
-    <img src="https://img.shields.io/codecov/c/github/P4ST4S/pet-health-tracker" alt="Codecov" />
-  </a>
-  <a href="https://snyk.io/test/github/P4ST4S/pet-health-tracker">
-    <img src="https://img.shields.io/snyk/vulnerabilities/github/P4ST4S/pet-health-tracker" alt="Vulnerabilities" />
-  </a>
-  <a href="https://github.com/P4ST4S/pet-health-tracker/issues">
-    <img src="https://img.shields.io/github/issues/P4ST4S/pet-health-tracker" alt="Issues" />
-  </a>
-  <a href="https://github.com/P4ST4S/pet-health-tracker/stargazers">
-    <img src="https://img.shields.io/github/stars/P4ST4S/pet-health-tracker" alt="Stars" />
-  </a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
@@ -52,22 +34,6 @@
   <img src="https://img.shields.io/badge/Coverage-85%25-brightgreen" alt="Coverage" />
   <img src="https://img.shields.io/badge/License-MIT-blue" alt="License" />
   <img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Version" />
-  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" alt="PRs Welcome" />
-</p>
-
-<p align="center">
-  <a href="https://sonarcloud.io/summary/new_code?id=P4ST4S_pet-health-tracker">
-    <img src="https://img.shields.io/sonar/quality_gate/P4ST4S_pet-health-tracker?server=https%3A%2F%2Fsonarcloud.io" alt="Quality Gate" />
-  </a>
-  <a href="https://david-dm.org/P4ST4S/pet-health-tracker">
-    <img src="https://img.shields.io/david/P4ST4S/pet-health-tracker" alt="Dependencies" />
-  </a>
-  <a href="https://github.com/P4ST4S/pet-health-tracker/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/P4ST4S/pet-health-tracker" alt="License" />
-  </a>
-  <a href="https://github.com/P4ST4S/pet-health-tracker/releases">
-    <img src="https://img.shields.io/github/v/release/P4ST4S/pet-health-tracker" alt="Release" />
-  </a>
 </p>
 
 ## 📋 Description
@@ -353,7 +319,7 @@ Detailed documentation about the project architecture and API endpoints can be f
 
 This project is licensed under the MIT License - see the server/LICENSE file for details.
 
-## 📊 Project Status
+### 📊 Project Status
 
 <p>
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status" />
@@ -363,22 +329,7 @@ This project is licensed under the MIT License - see the server/LICENSE file for
   <img src="https://img.shields.io/badge/Nestjs-11.0.1-E0234E" alt="NestJS Version" />
 </p>
 
-## 📧 Contact & Contribution
-
-<p>
-  <a href="https://github.com/P4ST4S/pet-health-tracker/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/P4ST4S/pet-health-tracker" alt="Contributors" />
-  </a>
-  <a href="https://github.com/P4ST4S/pet-health-tracker/network/members">
-    <img src="https://img.shields.io/github/forks/P4ST4S/pet-health-tracker" alt="Forks" />
-  </a>
-  <a href="https://github.com/P4ST4S/pet-health-tracker/issues">
-    <img src="https://img.shields.io/github/issues-raw/P4ST4S/pet-health-tracker" alt="Open Issues" />
-  </a>
-  <a href="https://github.com/P4ST4S/pet-health-tracker/pulls">
-    <img src="https://img.shields.io/github/issues-pr-raw/P4ST4S/pet-health-tracker" alt="Open PRs" />
-  </a>
-</p>
+### 📧 Contact & Contribution
 
 If you have any questions or suggestions, please reach out to me at [42roan1mst@hft-stuttgart.de](mailto:42roan1mst@hft-stuttgart.de).
 

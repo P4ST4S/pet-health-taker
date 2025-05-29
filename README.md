@@ -62,12 +62,8 @@ project-root/
 │
 └── server/                # NestJS backend application
     ├── docs/              # Documentation files
-    │   ├── api.md         # API documentation
-    │   └── architecture.md# Architecture documentation
-    │
-    ├── scripts/           # Utility scripts
-    │   ├── generate-pdf.js     # Script to generate PDF documentation
-    │   └── generate-schema.js  # Script to generate database schema diagram
+    │   ├── api.md            # API documentation
+    │   └── architecture.md   # Architecture documentation
     │
     ├── src/               # Source code
     │   ├── auth/          # Authentication module

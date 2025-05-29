@@ -13,7 +13,6 @@
   <a href="#-usage">Usage</a> •
   <a href="#-api-endpoints">API Endpoints</a> •
   <a href="#-deployment">Deployment</a> •
-  <a href="#-contributing">Contributing</a> •
   <a href="#-license">License</a>
 </p>
 
@@ -285,16 +284,6 @@ Detailed documentation about the project architecture and API endpoints can be f
 
 - [Architecture Documentation](server/docs/architecture.md)
 - [API Documentation](server/docs/api.md)
-
-## 👥 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📝 License
 

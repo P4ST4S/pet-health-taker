@@ -1,7 +1,7 @@
 # 🐾 Pet Health Tracker
 
 <p align="center">
-  <img src="https://imgur.com/a/SRRoUiC" width="400" alt="Pet Health Tracker Logo" />
+  <img src="/assets/logo.png" width="400" alt="Pet Health Tracker Logo" />
 </p>
 
 <p align="center">

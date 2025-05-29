@@ -91,7 +91,7 @@ project-root/
 Pet Health Tracker follows a modular architecture pattern using NestJS's powerful module system:
 
 <p align="center">
-  <img src="https://i.imgur.com/UJrH5FS.png" width="700" alt="Application Architecture" />
+  <img src="/assets/architecture.png" width="700" alt="Application Architecture" />
 </p>
 
 ### Core Modules
@@ -107,7 +107,7 @@ Pet Health Tracker follows a modular architecture pattern using NestJS's powerfu
 ## 📊 Database Schema
 
 <p align="center">
-  <img src="https://i.imgur.com/rKOY5nF.png" width="800" alt="Database Schema" />
+  <img src="/assets/db-scheme.png" width="800" alt="Database Schema" />
 </p>
 
 ### Entity Relationships
@@ -324,7 +324,7 @@ This project is licensed under the MIT License - see the server/LICENSE file for
 
 ## 📧 Contact
 
-If you have any questions or suggestions, please reach out to us at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or suggestions, please reach out to me at [42roan1mst@hft-stuttgart.de](mailto:42roan1mst@hft-stuttgart.de).
 
 ---
 

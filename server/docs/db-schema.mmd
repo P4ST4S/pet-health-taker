@@ -1,0 +1,74 @@
+
+erDiagram
+    USER {
+        uuid id PK
+        string email
+        string firstName
+        string lastName
+        string password
+        date createdAt
+        date updatedAt
+    }
+    
+    PET {
+        uuid id PK
+        string name
+        string species
+        string breed
+        date birthDate
+        string color
+        float weight
+        string microchipNumber
+        string photo
+        text notes
+        uuid ownerId FK
+        date createdAt
+        date updatedAt
+    }
+    
+    HEALTH_RECORD {
+        uuid id PK
+        enum type
+        string title
+        date date
+        text description
+        string veterinarian
+        string clinic
+        number cost
+        text notes
+        string attachmentUrl
+        uuid petId FK
+        date createdAt
+        date updatedAt
+    }
+    
+    CARE_TASK {
+        uuid id PK
+        string title
+        text description
+        date dueDate
+        enum status
+        boolean isRecurring
+        number recurringIntervalDays
+        uuid petId FK
+        date createdAt
+        date updatedAt
+    }
+    
+    REMINDER {
+        uuid id PK
+        string title
+        text description
+        timestamp reminderDate
+        enum status
+        boolean isRecurring
+        number recurringIntervalDays
+        uuid petId FK
+        date createdAt
+        date updatedAt
+    }
+    
+    USER ||--o{ PET : "owns"
+    PET ||--o{ HEALTH_RECORD : "has"
+    PET ||--o{ CARE_TASK : "has"
+    PET ||--o{ REMINDER : "has"

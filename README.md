@@ -127,7 +127,7 @@ Pet Health Tracker follows a modular architecture pattern using NestJS's powerfu
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/pet-health-tracker.git
+   git clone https://github.com/P4ST4S/pet-health-tracker.git
    cd pet-health-tracker
    ```
 

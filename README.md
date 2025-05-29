@@ -118,17 +118,6 @@ Pet Health Tracker follows a modular architecture pattern using NestJS's powerfu
 - Each **Pet** can have multiple **Reminders**
 - **Health Records**, **Care Tasks**, and **Reminders** all belong to a specific **Pet**
 
-### Schema Generation
-
-You can generate the database schema diagram using the provided script:
-
-```bash
-cd server
-node scripts/generate-schema.js
-```
-
-This will create a visual representation of the database schema in the `server/docs` directory.
-
 ## 🚀 Installation
 
 ### Prerequisites
@@ -300,13 +289,6 @@ Detailed documentation about the project architecture and API endpoints can be f
 
 - [Architecture Documentation](server/docs/architecture.md)
 - [API Documentation](server/docs/api.md)
-
-You can also generate a PDF version of this README for easier sharing:
-
-```bash
-cd server
-node scripts/generate-pdf.js
-```
 
 ## 👥 Contributing
 

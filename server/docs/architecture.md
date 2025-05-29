@@ -8,22 +8,22 @@ The Pet Health Tracker is a comprehensive application that allows pet owners to 
 
 ```
 ┌────────────────────────────────────────────────────────────┐
-│                     Client Application                      │
+│                     Client Application                     │
 └───────────────────────────────┬────────────────────────────┘
                                │
                                ▼
 ┌────────────────────────────────────────────────────────────┐
-│                         API Gateway                         │
+│                         API Gateway                        │
 └───────────────────────────────┬────────────────────────────┘
                                │
                                ▼
 ┌────────────────────────────────────────────────────────────┐
-│                       NestJS Application                    │
+│                       NestJS Application                   │
 │  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────────┐   │
 │  │   Auth   │ │  Users   │ │   Pets   │ │Health Records│   │
 │  │  Module  │ │  Module  │ │  Module  │ │    Module    │   │
 │  └──────────┘ └──────────┘ └──────────┘ └──────────────┘   │
-│                                                             │
+│                                                            │
 │  ┌──────────┐ ┌──────────┐ ┌────────────┐                  │
 │  │Care Tasks│ │ Reminders│ │ Scheduler  │                  │
 │  │  Module  │ │  Module  │ │   Module   │                  │
@@ -32,7 +32,7 @@ The Pet Health Tracker is a comprehensive application that allows pet owners to 
                                │
                                ▼
 ┌────────────────────────────────────────────────────────────┐
-│                     PostgreSQL Database                     │
+│                     PostgreSQL Database                    │
 └────────────────────────────────────────────────────────────┘
 ```
 

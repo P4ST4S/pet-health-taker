@@ -107,7 +107,7 @@ Pet Health Tracker follows a modular architecture pattern using NestJS's powerfu
 ## 📊 Database Schema
 
 <p align="center">
-  <img src="/assets/schema.png" width="800" alt="Database Schema" />
+  <img src="/assets/schema.png" height="800" alt="Database Schema" />
 </p>
 
 ### Entity Relationships
